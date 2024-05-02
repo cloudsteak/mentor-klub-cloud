@@ -1,0 +1,34 @@
+name: Hibajelenség
+description: Elakadtél valamelyik demó kapcsán? Itt leírhatod a tapasztalt jelenséget.
+title: "[Q]: "
+labels: ["question", "cloud"]
+assignees:
+  - the1bit
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Köszöszönöm, hogy írsz. Írd le a jelenséget. Csatolj képet vagy hibaüzenetet is, hogy hamarabb találjunk megoldást számodra.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Miben történt?
+      description: Írd le azt is, melyik képzéssel vagy felhővel kapcsolatban kérdezel. Írd le részletesen a tapasztalt viselkedést.
+    validations:
+      required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: Témakör
+      description: Melyik terület?
+      options:
+        - Általános kérdés
+        - Azure
+        - AWS
+        - Google Cloud
+        - IaC
+        - Go lang
+        - Docker
+    validations:
+      required: true
+  
