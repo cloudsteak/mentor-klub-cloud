@@ -1,7 +1,7 @@
 name: Hibajelenség
-description: Elakadtél valamelyik demó kapcsán? Itt leírhatod a tapasztalt jelenséget.
-title: "[Q]: "
-labels: ["question", "cloud"]
+description: Elakadtál valamelyik demó vagy képzés gyakorlása kapcsán? Itt leírhatod a tapasztalt jelenséget.
+title: "[I]: "
+labels: ["issue", "cloud"]
 assignees:
   - the1bit
 body:
@@ -12,15 +12,15 @@ body:
   - type: textarea
     id: what-happened
     attributes:
-      label: Miben történt?
-      description: Írd le azt is, melyik képzéssel vagy felhővel kapcsolatban kérdezel. Írd le részletesen a tapasztalt viselkedést.
+      label: Mi történt?
+      description: Írd le azt is, melyik képzéssel vagy felhővel kapcsolatban kérdezel. Írd le részletesen a tapasztalt jelenséget. Térj ki arra is, hogyan lehet reprodukálni.
     validations:
       required: true
   - type: dropdown
     id: version
     attributes:
       label: Témakör
-      description: Melyik terület?
+      description: Melyik terület tapasztalsz nehézséget?
       options:
         - Általános kérdés
         - Azure
