@@ -28,6 +28,7 @@ body:
         - Google Cloud
         - IaC
         - Go lang
+        - Docker
     validations:
       required: true
   
