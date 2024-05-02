@@ -20,7 +20,7 @@ body:
     id: version
     attributes:
       label: Témakör
-      description: Melyik terület tapasztalsz nehézséget?
+      description: Melyik területen tapasztalsz nehézséget?
       options:
         - Azure
         - AWS
@@ -28,6 +28,9 @@ body:
         - IaC
         - Go lang
         - Docker
+        - Kubernetes (AKS/EKS/GKE)
+        - GitHub (Repository, Action, Settings)
+        - AI (mesterséges intelligencia)
         - Egyéb technológia
     validations:
       required: true
