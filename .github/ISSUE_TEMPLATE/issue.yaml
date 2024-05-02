@@ -22,13 +22,13 @@ body:
       label: Témakör
       description: Melyik terület tapasztalsz nehézséget?
       options:
-        - Általános kérdés
         - Azure
         - AWS
         - Google Cloud
         - IaC
         - Go lang
         - Docker
+        - Egyéb technológia
     validations:
       required: true
   
