@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Köszöszönöm, hogy írsz. Kérdezz bátran.
+        Köszönöm, hogy írsz. Kérdezz bátran.
   - type: textarea
     id: what-happened
     attributes:
@@ -31,4 +31,11 @@ body:
         - Docker
     validations:
       required: true
-  
+  - type: checkboxes
+    id: public-acknowledgment
+    attributes:
+      label: Nyilvánosság tudomásulvétele
+      description: Az alábbi checkbox bejelölése kötelező a kérdés beküldéséhez.
+      options:
+        - label: "Tudomásul veszem, hogy minden itt megadott információ nyilvánosan elérhető, és bárki számára hozzáférhető, aki ezt a GitHub repository-t megnyitja."
+          required: true
